@@ -18,6 +18,8 @@ export function NewNoteCard(){
         setShouldShowOnBoarding(true)
       }
       setContent(event.target.value)
+
+      console.log(content)
     }
 
     function handleSaveNote(event: FormEvent){
